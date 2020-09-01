@@ -1,0 +1,738 @@
+    1  ls
+    2  whoami
+    3  ls
+    4  whoami
+    5  pwd
+    6  sl
+    7  sudo apt-get gcc
+    8  sudo apt-get install gcc
+    9  which gcc
+   10  sudo apt-get install g++
+   11  sudo apt-get install gdb
+   12  ls
+   13  sudo apt-get install nodejs
+   14  console.log('hello')
+   15  node 
+   16  cat /etc/group
+   17  mkdir Document
+   18  ls
+   19  mkdir Projects
+   20  ls
+   21  sudo apt-get install vsftpd
+   22  sudo vsftpd start
+   23  sudo service vsftpd start
+   24  sudo vi /etc/vsftpd.conf
+   25  sudo service vsftpd restart
+   26  sudo vi /etc/vsftpd.conf
+   27  ping 192.168.38.131
+   28  ifconfig
+   29  node
+   30  ls
+   31  cd projecsts
+   32  cd Projects/
+   33  ls
+   34  sl
+   35  gdb
+   36  pa
+   37  ps
+   38  q
+   39  ls
+   40  pwd
+   41  mkdir c_Basic_Learning
+   42  ls
+   43  cd c
+   44  cd c_Basic_Learning/
+   45  vi exer001.c
+   46  ls
+   47  sudo vi /etc/profile
+   48  source /etc/profile
+   49  pwd
+   50  lls
+   51  ls
+   52  vi exer001.c
+   53  mkdir
+   54  mkdir newdir
+   55  cd newdir/
+   56  ls
+   57  sudo vi /etc/profile
+   58  source /etc/profile
+   59  ls
+   60  exit
+   61  ls
+   62  pwd
+   63  ls
+   64  whoami
+   65  cd Projects/
+   66  ls
+   67  cd c_Basic_Learning/
+   68  ls
+   69  cd Projects/
+   70  ls
+   71  mkdir c_advanced
+   72  ls
+   73  mkdir data_structs
+   74  ls
+   75  cd c_Basic_Learning/
+   76  ls
+   77  gcc exer001.c
+   78  ./a.out
+   79  rm *.*
+   80  ls
+   81  ll
+   82  rm newdir/
+   83  rm -rf newdir/
+   84  ls
+   85  vi test1.c
+   86  gcc -E test1.c -o test1.i
+   87  cat test1.i
+   88  gcc -S test1.i -o test1.s
+   89  ls
+   90  cat test1.s
+   91  gcc -c test1.s -o test1.o
+   92  ls
+   93  ./test1.o
+   94  cat test1.o
+   95  ls
+   96  exit
+   97  ls
+   98  cd ~/Projects/c_Basic_Learning/
+   99  ls
+  100  gcc test1.o -o test1
+  101  ls
+  102  ./test1 
+  103  cat test1.o
+  104  cd ~/Projects/c_Basic_Learning/ls
+  105  cd ~/Projects/c_Basic_Learning/
+  106  ls
+  107  lld test1
+  108  ldd test1
+  109  ls
+  110  mkdir test
+  111  cd test
+  112  mkdir 001
+  113  ls
+  114  cd ..
+  115  ls
+  116  tar -zcvf test1.tar.gz test1 test1.c test1.i test1.o test1.s
+  117  ls
+  118  rm test1
+  119  ls
+  120  mv ~/Projects/c_Basic_Learning/test1.tar.gz ~/Projects/c_Basic_Learning/test/001
+  121  ls
+  122  cd ./test/001
+  123  ls
+  124  tar -zxvf test1.tar.gz
+  125  ls
+  126  cd ..
+  127  ls
+  128  pwd
+  129  cd ../../
+  130  ls
+  131  pwd
+  132  cd c_Basic_Learning/
+  133  ls
+  134  pwd
+  135  cd ./test/001
+  136  ls
+  137  cd -
+  138  ls
+  139  rm *.*
+  140  ls
+  141  cd learn_code
+  142  mkdir learn_code
+  143  ls
+  144  ll
+  145  cd learn_code/
+  146  pwd
+  147  ls
+  148  vi book0191.c
+  149  gcc -o book0191 book0191.c 
+  150  vi book0191.c
+  151  gcc book0191.c
+  152  ls
+  153  exit
+  154  cd Document/
+  155  ls
+  156  hello
+  157  ls
+  158  cd ..
+  159  ls
+  160  cd Projects/
+  161  ls
+  162  cd c_Basic_Learning/
+  163  ls
+  164  ls
+  165  cd Projects/
+  166  ls
+  167  cd c_Basic_Learning/
+  168  ls
+  169  cd learn_code/
+  170  ls
+  171  cd ..
+  172  ls
+  173  cd test
+  174  ls
+  175  mkdir 002_char_array_test
+  176  ls
+  177  cd 002_char_array_test/
+  178  ls
+  179  vi array_test.c
+  180  gcc array_test.c 
+  181  vi array_test.c 
+  182  gcc array_test.c 
+  183  vi array_test.c 
+  184  gcc array_test.c 
+  185  vi array_test.c 
+  186  gcc array_test.c 
+  187  ./a.out
+  188  vi array_test.c 
+  189  gcc array_test.c 
+  190  ./a.out
+  191  vi array_test.c 
+  192  gcc array_test.c 
+  193  ./a.out
+  194  cat array_test.c 
+  195  cd ..
+  196  ls
+  197  exit
+  198  ls
+  199  cd Projects/
+  200  ls
+  201  cd c_Basic_Learning/
+  202  ls
+  203  cd learn_code/
+  204  ls
+  205  vi book0253.c
+  206  gcc book0253.c 
+  207  vi book0253.c 
+  208  gcc book0253.c 
+  209  ./a.out
+  210  cat book0253.c
+  211  ls
+  212  mv temp.c book0293.c
+  213  ls
+  214  vi book0293.c
+  215  gcc book0293.c
+  216  vi book0293.c 5
+  217  gcc book0293.c
+  218  ./a.out
+  219  b
+  220  cat book0293.c
+  221  exit
+  222  ls
+  223  cd Projects/
+  224  ls
+  225  cd c_Basic_Learning/learn_code/
+  226  ls
+  227  cat book293.c
+  228  cat book0293.c
+  229  ls
+  230  ./a.out
+  231  vi book0293.c
+  232  ls
+  233  vi test.c
+  234  ls
+  235  gcc test.c
+  236  vi test.c
+  237  mv test.c book9001.c
+  238  ls
+  239  gcc book9001.c 
+  240  cat book9001.c 
+  241  gcc book9001.c 
+  242  ./a.out
+  243  vi book9001.c 
+  244  gcc book9001.c 
+  245  ./a.out
+  246  vi book9001.c
+  247  gcc book9001.c
+  248  ./a.out
+  249  vi book9001.c 
+  250  gcc book9001.c 
+  251  ./a.out
+  252  vi book9001.c 
+  253  gcc book9001.c 
+  254  ./a.out
+  255  vi book9001.c 
+  256  gcc book9001.c 
+  257  ./a.out
+  258  vi book9001.c
+  259  gcc book9001.c
+  260  ./a.out
+  261  ls
+  262  vi test.c
+  263  gcc test.c
+  264  ./a.out
+  265  vi test.c
+  266  gcc test.c
+  267  ./a.out
+  268  vi test.c
+  269  gcc test.c
+  270  ./a.out
+  271  ls
+  272  cat test.c
+  273  rm test.c
+  274  ls
+  275  exit
+  276  ls
+  277  cd Projects/c_Basic_Learning/learn_code/
+  278  ls
+  279  cat book9001.c
+  280  ls
+  281  vi test.h
+  282  vi te.c
+  283  gcc te.c test.h
+  284  ./a.out
+  285  rm a.out
+  286  ls
+  287  gcc te.c
+  288  ./a.out
+  289  rm a.out
+  290  rm test.h.gch
+  291  ls
+  292  gcc te.c
+  293  ./a.out
+  294  sl
+  295  whic vsftpd
+  296  which vsftpd
+  297  ls /root
+  298  ls
+  299  ls -l a.out
+  300  file a.out
+  301  exit
+  302  ls
+  303  cd Projects
+  304  ls
+  305  exit
+  306  ls
+  307  ifconfig
+  308  cd ~/Projects/
+  309  ls
+  310  gcc socket_book242_cfreeplus.cpp
+  311  vi socket_book242_cfreeplus.cpp 
+  312  gcc socket_book242_cfreeplus.cpp
+  313  vi socket_book242_cfreeplus.cpp 
+  314  gcc socket_book242_cfreeplus.cpp 
+  315  vi socket_book242_cfreeplus.cpp 
+  316  ls
+  317  exit
+  318  ls
+  319  pwd
+  320  sl
+  321  cd ../
+  322  ls
+  323  ./a.out
+  324  rm a.out 
+  325  ls
+  326  cd c_advanced/
+  327  ls
+  328  cd ..
+  329  pwd
+  330  cd c_Basic_Learning/
+  331  ls
+  332  cd test
+  333  ls
+  334  file 001
+  335  cd 001
+  336  ls
+  337  whoami
+  338  pwd
+  339  cat /root/.ssh
+  340  sudo cat /root/.ssh
+  341  sudo ls /root/.ssh
+  342  sudo cd ./authorized
+  343  sudo ls /root/.ssh/authorized_keys
+  344  sudo ls -al /root/.ssh/authorized_keys
+  345  sudo ls -al /root/.ssh/authorized_keys/
+  346  exit
+  347  ls
+  348  cd ~/.ssh/authorized_keys
+  349  mkdir ~/.ssh/authorized_keys
+  350  ls
+  351  ls -al
+  352  cd ~/.ssh/authorized_keys
+  353  ls
+  354  cd ..
+  355  pwd
+  356  ls
+  357  pwd
+  358  cd authorized_keys/
+  359  mv ~/id_rsa.pub  ./
+  360  ls
+  361  chmod 600 ~/.ssh/authorized_keys
+  362  chmod 700 -R ~/.ssh/
+  363  cd ~
+  364  ls
+  365  cd -
+  366  ls
+  367  su
+  368  exit
+  369  ls
+  370  cd ~/.ssh
+  371  ls
+  372  file authorized_keys/
+  373  cd ./
+  374  ls
+  375  cd authorized_keys/
+  376  ls
+  377  ls -alh
+  378  cd ../
+  379  ls
+  380  pwd
+  381  rm authorized_keys/
+  382  rm -rf authorized_keys/
+  383  ls
+  384  touch autorized_keys
+  385  ls
+  386  file autorized_keys 
+  387  cd 
+  388  pwd
+  389  ls
+  390  cat ~/id_rsa.pub >> ~/.ssh/autorized_keys 
+  391  ls
+  392  cd -
+  393  ls
+  394  cat autorized_keys 
+  395  ls
+  396  chmod -R 600 autorized_keys 
+  397  which
+  398  ls
+  399  ls
+  400  rm a.out
+  401  ls
+  402  pwd
+  403  cd ~/Projects/data_structs
+  404  ls
+  405  which vscode_test.cpp
+  406  find vsdoe_test.cpp
+  407  cd ../
+  408  ls
+  409  ls -al
+  410  rm vs*
+  411  ls -al
+  412  mkdir cpp_basic
+  413  ls
+  414  cd cpp_basic
+  415  ls
+  416  g++ test.cpp
+  417  ./a.out
+  418  exit
+  419  ls
+  420  ls -al
+  421  cd .ssh
+  422  ls
+  423  ls -al
+  424  cd .ssh
+  425  ls
+  426  cat autorized_keys 
+  427  ls
+  428  ls -alh
+  429  rm autorized_keys 
+  430  exit
+  431  sl
+  432  ls
+  433  gcc socket_book242_cfreeplus.cpp 
+  434  gcc test.cpp
+  435  ls
+  436  mv ./c_Basic_Learning/test.cpp ./
+  437  ls
+  438  gcc test.cpp
+  439  ls
+  440  g++ test.cpp
+  441  ./a.out
+  442  exit
+  443  ls
+  444  sl
+  445  ls
+  446  rm a.out
+  447  ls
+  448  su root
+  449  whoami
+  450  ls
+  451  cd ~/Projects/cpp_basic/
+  452  ls
+  453  mkdir basic0311_02
+  454  ls
+  455  cd basic0311_02
+  456  ls
+  457  pw
+  458  pwd
+  459  ls
+  460  g++ -o test test.cpp student.h student.cpp
+  461  ls
+  462  g++ -o test test.cpp student.h student.cpp
+  463  ./test
+  464  ls
+  465  rm test
+  466  ls
+  467  g++ -o test test.cpp student.h student.cpp
+  468  ./test
+  469  ls
+  470  g++ -o test test.cpp student.h student.cpp
+  471  ./test
+  472  g++ -o test test.cpp student.h student.cpp
+  473  ./test
+  474  g++ -o test test.cpp student.h student.cpp
+  475  ./test
+  476  g++ -o test test.cpp student.h student.cpp
+  477  ./test
+  478  ls
+  479  cd cpp_basic/
+  480  ls
+  481  gcc basic0312_2_01.cpp 
+  482  g++ basic0312_2_01.cpp 
+  483  ./a.out
+  484  g++ basic0312_2_01.cpp 
+  485  ./a.out
+  486  g++ basic0312_2_01.cpp 
+  487  ./a.out
+  488  g++ basic0312_2_01.cpp 
+  489  ./a.out
+  490  g++ basic0312_2_01.cpp 
+  491  ./a.out
+  492  g++ basic0312_2_01.cpp 
+  493  ./a.out
+  494  g++ basic0314.cpp
+  495  ./a.out
+  496  g++ -E basic0315_2_02.cpp 
+  497  ls
+  498  ls -al
+  499  g++ -E -o test.i basic0315_2_02.cpp
+  500  ls
+  501  cat test.i
+  502  g++ -o test.s  -S test.i
+  503  ls
+  504  vi test.s
+  505  cat test.s
+  506  ls
+  507  cd basic315
+  508  cd basic0315_3_Extern_C/
+  509  ls
+  510  g++ MyModule.h MyModule.cpp TestExternC.cpp 
+  511  ls
+  512  ./a.out
+  513  g++ MyModule.h MyModule.cpp TestExternC.cpp 
+  514  ./aout
+  515  ./a.out
+  516  sl
+  517  ls
+  518  pwd
+  519  cd cpp_basic
+  520  cd basic0413/
+  521  ls
+  522  g++ person.h person.cpp test.cpp
+  523  ls
+  524  a.out
+  525  ./a.uot
+  526  ./a.out
+  527  g++ person.h person.cpp test.cpp
+  528  ./a.out
+  529  g++ person.h person.cpp test.cpp
+  530  ./a.out
+  531  g++ person.h person.cpp test.cpp
+  532  ./a.out
+  533  g++ person.h person.cpp test.cpp
+  534  ./a.out
+  535  g++ person.h person.cpp test.cpp
+  536  ./a.out
+  537  g++ person.h person.cpp test.cpp
+  538  ./a.out
+  539  cd ../
+  540  ls
+  541  cd ../
+  542  ls
+  543  pwd
+  544  ls
+  545  cd cpp_basic/basic0413/
+  546  ls
+  547  rm a.out
+  548  ls
+  549  g++ -o test person.h person.cpp test.cpp
+  550  ls
+  551  cd new
+  552  ps
+  553  touch hello
+  554  ls
+  555  file hello
+  556  cat hello
+  557  rm hello
+  558  vi hello.c
+  559  gcc hello.c
+  560  ./a.out
+  561  ls
+  562  fork
+  563  ls
+  564  which fork
+  565  whoami
+  566  w
+  567  ls
+  568  which
+  569  pwd
+  570  cd ~
+  571  ls
+  572  cd ..
+  573  ls
+  574  cd -
+  575  ls
+  576  ls -al
+  577  file .ssh
+  578  cd .ssh
+  579  ls
+  580  cat authorized_keys
+  581  top
+  582  which ssh
+  583  which vsftpd
+  584  ls
+  585  cd ~
+  586  ls
+  587  cd Document/
+  588  ls
+  589  rm -r new
+  590  ls
+  591  cd ..
+  592  ls
+  593  pwd
+  594  cd Project
+  595  pwd
+  596  sl
+  597  ls
+  598  cd Projects/
+  599  ls
+  600  sl
+  601  w
+  602  ls
+  603  ps
+  604  top
+  605  ls
+  606  pwd
+  607  cd ~
+  608  ls
+  609  cat   /etc/issue
+  610  uname -m
+  611  sudo uname -p
+  612  ls
+  613  sudo apt-get update
+  614  ls
+  615  ls -al
+  616  ls
+  617  sl
+  618  ls
+  619  basic0431.cpp
+  620  g++ basic0431.cpp 
+  621  ./a.out
+  622  g++ basic0431.cpp 
+  623  ./a.out
+  624  ls
+  625  g++ basic0431.cpp
+  626  ./a.out
+  627  g++ basic0431.cpp
+  628  ./a.out
+  629  sl
+  630  g++ basic0431.cpp 
+  631  ./a.out
+  632  ls
+  633  pwd
+  634  g++ test.cpp
+  635  ./a.out
+  636  ls
+  637  g++ test.cpp
+  638  ./a.out
+  639  ls
+  640  g++ test.cpp
+  641  ./aout
+  642  ./a.out
+  643  ls
+  644  who am i
+  645  ls
+  646  gcc test.c
+  647  ls
+  648  ./a.out
+  649  gcc test.c
+  650  ./a.out
+  651  gcc test.c
+  652  ./a.out
+  653  gcc test.c
+  654  ./a.out
+  655  gcc test.c
+  656  ./a.out
+  657  gcc test.c
+  658  ./a.out
+  659  gcc test.c
+  660  ./a.out
+  661  gcc test.c
+  662  ./a.out
+  663  gcc test.c
+  664  ./a.out
+  665  gcc test.c
+  666  ./a.out
+  667  gcc test.c
+  668  ./a.out
+  669  ls
+  670  rm a.out
+  671  ls
+  672  rm test.c
+  673  ls
+  674  echo "hello"
+  675  cd ~
+  676  ls
+  677  pwd
+  678  cd Document
+  679  ls
+  680  mkdir test
+  681  ls
+  682  cd test
+  683  touch text
+  684  ls
+  685  cat text
+  686  ls
+  687  man
+  688  man --help
+  689  man man 
+  690  echo hello
+  691  date
+  692  ls
+  693  date "+%Y-%m-%d %H-%M-%s"
+  694  date "+%Y-%m-%d %H-%M-%S"
+  695  date "+%y-%m-%d %H-%M-%S"
+  696  date "+%Y-%m-%D %H-%M-%S"
+  697  reboot
+  698  wegt https://www.linuxprobe.com/docs/LinuxProbe.pdf
+  699  sudo apt-get install wget
+  700  wget https://www.linuxprobe.com/docs/LinuxProbe.pdf
+  701  ls
+  702  ifconfig
+  703  poweroff
+  704  ps
+  705  ps -aux
+  706  cat text
+  707  ls
+  708  echo hello > text
+  709  cat text
+  710  vi hello
+  711  rm hello
+  712  ls
+  713  vi text
+  714  ls
+  715  ps -aux > text
+  716  vi text
+  717  top
+  718  pidof vsftpd
+  719  kill 1084
+  720  pidof http
+  721  pidof httpd
+  722  killall vsftpd
+  723  ifconfig
+  724  uname
+  725  uname -a
+  726  ls /etc/*-release
+  727  cat /etc/os-release 
+  728  uptime
+  729  free
+  730  free -h
+  731  who
+  732  w
+  733  last
+  734  ls
+  735  touch history-cache
+  736  ls
+  737  history
+  738  history > history-cache

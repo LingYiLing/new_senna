@@ -1,0 +1,6 @@
+error.txt
+hello.c
+log.txt
+readme.txt
+test
+test1
